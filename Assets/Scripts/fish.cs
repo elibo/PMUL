@@ -19,16 +19,13 @@ public class fish : MonoBehaviour
     {
        transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
 
-    
-     
-
     }
 
 
     public void OnTriggerExit2D(Collider2D collision)
     {
 
-        speed *= -Random.Range(0.5f, 2.5f);
+        speed *= -1;
         transform.Rotate(0, 180, 0);
         transform.position += new Vector3(speed * Time.deltaTime, Random.value, 0);
     }

@@ -1,13 +1,17 @@
 fileFormatVersion: 2
 guid: dd72801ea97a2514b887129dde34019f
-timeCreated: 1453464977
-licenseType: Pro
+timeCreated: 1453477576
+licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: rockfish1sheet_0
+    21300002: rockfish1sheet_1
+    21300004: rockfish1sheet_2
+    21300006: rockfish1sheet_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -17,7 +21,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -26,11 +30,11 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,18 +42,115 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: rockfish1sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 123, y: -2}
+        - {x: 118, y: -2}
+        - {x: 126, y: -1}
+        - {x: 126, y: 5}
+        - {x: 114, y: 24}
+        - {x: 56, y: 64}
+        - {x: 2, y: 64}
+        - {x: -47, y: 57}
+        - {x: -59, y: 48}
+        - {x: -64, y: 44}
+        - {x: -68, y: 38}
+        - {x: -69, y: 35}
+        - {x: -101, y: 53}
+        - {x: -112, y: 51}
+        - {x: -118, y: 14}
+        - {x: -118, y: -6}
+        - {x: -117, y: -9}
+        - {x: -54, y: -58}
+        - {x: 54, y: -58}
+        - {x: 126, y: -13}
+        - {x: 126, y: -5}
+    - name: rockfish1sheet_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56, y: 64}
+        - {x: -8, y: 64}
+        - {x: -64, y: 48}
+        - {x: -71, y: 41}
+        - {x: -123, y: 45}
+        - {x: -127, y: 35}
+        - {x: -127, y: -17}
+        - {x: -126, y: -20}
+        - {x: -45, y: -49}
+        - {x: 36, y: -55}
+        - {x: 50, y: -55}
+        - {x: 126, y: -17}
+        - {x: 126, y: 12}
+        - {x: 72, y: 54}
+    - name: rockfish1sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 64}
+        - {x: -128, y: 39}
+        - {x: -128, y: -21}
+        - {x: -124, y: -33}
+        - {x: -84, y: -51}
+        - {x: 50, y: -51}
+        - {x: 126, y: -10}
+        - {x: 126, y: 11}
+        - {x: 69, y: 64}
+    - name: rockfish1sheet_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 64}
+        - {x: -33, y: 64}
+        - {x: -120, y: 24}
+        - {x: -120, y: -49}
+        - {x: 93, y: -49}
+        - {x: 125, y: -15}
+        - {x: 125, y: 7}
+        - {x: 110, y: 34}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
